@@ -108,9 +108,9 @@ console.log({ bigBuff, string: bigBuff.toString() });
 
 ## :mag: Para saber más
 
-[Eventos](https://nodejs.org/api/events.html)
-[El emisor de eventos de NodeJS](https://nodejs.dev/en/learn/the-nodejs-event-emitter/)
-[Buffers](https://nodejs.dev/en/learn/nodejs-buffers/)
+- [Eventos](https://nodejs.org/api/events.html)
+- [El emisor de eventos de NodeJS](https://nodejs.dev/en/learn/the-nodejs-event-emitter/)
+- [Buffers](https://nodejs.dev/en/learn/nodejs-buffers/)
 
 ## :pencil2: Ejercicio
 

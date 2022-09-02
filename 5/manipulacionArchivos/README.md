@@ -269,7 +269,7 @@ deleteAsync(newFilePath);
   
 - [Rutas de archivos](https://nodejs.dev/en/learn/nodejs-file-paths/)
 
-[Trabajar con directorios](https://nodejs.dev/en/learn/working-with-folders-in-nodejs/)
+- [Trabajar con directorios](https://nodejs.dev/en/learn/working-with-folders-in-nodejs/)
 
 ## :pencil2: Ejercicio
 
