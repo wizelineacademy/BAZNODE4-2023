@@ -53,12 +53,13 @@ myTimerPromise.then(() => {
 Para marcar una ejecución de promesa como fallida o con errores, se usa la siguiente estructura
 
 ```js
-const subTask = (message) => new Promise((resolve, reject) => {
-  if (message === '' || message === undefined) {
-    reject(new Error(`Mensaje incorrecto: ${message}`));
-  }
-  resolve('Mensaje correcto');
-});
+const subTask = (message) =>
+  new Promise((resolve, reject) => {
+    if (message === '' || message === undefined) {
+      reject(new Error(`Mensaje incorrecto: ${message}`));
+    }
+    resolve('Mensaje correcto');
+  });
 
 subTask('Mensaje')
   .then((message) => console.log({ message }))
@@ -67,7 +68,6 @@ subTask('Mensaje')
 subTask()
   .then((message) => console.log({ message }))
   .catch((err) => console.error(`Error en la sub tarea ${err}`));
-
 ```
 
 #### 3. Encadenamiento de promesas
@@ -75,26 +75,29 @@ subTask()
 Se pueden encadenar promesas para que al término de una de ellas se ejecute la siguiente
 
 ```js
-const firstTask = () => new Promise((resolve) => {
-  setTimeout(() => {
-    console.log('Primera tarea');
-    resolve();
-  }, 1000);
-});
+const firstTask = () =>
+  new Promise((resolve) => {
+    setTimeout(() => {
+      console.log('Primera tarea');
+      resolve();
+    }, 1000);
+  });
 
-const secondTask = () => new Promise((resolve) => {
-  setTimeout(() => {
-    console.log('Segunda tarea');
-    resolve('Llamada a la tercera tarea');
-  }, 2000);
-});
+const secondTask = () =>
+  new Promise((resolve) => {
+    setTimeout(() => {
+      console.log('Segunda tarea');
+      resolve('Llamada a la tercera tarea');
+    }, 2000);
+  });
 
-const thirdTask = (message) => new Promise((resolve) => {
-  setTimeout(() => {
-    console.log(message);
-    resolve();
-  }, 3000);
-});
+const thirdTask = (message) =>
+  new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(message);
+      resolve();
+    }, 3000);
+  });
 
 firstTask()
   .then(secondTask)
@@ -166,7 +169,7 @@ const newFilePath = `${testFolder}${newFileName}`;
 #### 1. Create (Crear)
 
 ```js
-const content = 'Curso de Node JS Junior'
+const content = 'Curso de Node JS Junior';
 // Forma síncrona
 fs.writeFileSync(newFilePath, content);
 
@@ -262,13 +265,10 @@ deleteAsync(newFilePath);
 ## :mag: Para saber más
 
 - [Callbacks](https://nodejs.dev/en/learn/javascript-asynchronous-programming-and-callbacks/)
-
 - [Entendiendo las promesas de JavaScript](https://nodejs.dev/en/learn/understanding-javascript-promises/)
-
 - [Async & Await](https://nodejs.dev/en/learn/modern-asynchronous-javascript-with-async-and-await/)
-  
+- [Diferencias entre promesas y async/await](https://www.geeksforgeeks.org/difference-between-promise-and-async-await-in-node-js/)
 - [Rutas de archivos](https://nodejs.dev/en/learn/nodejs-file-paths/)
-
 - [Trabajar con directorios](https://nodejs.dev/en/learn/working-with-folders-in-nodejs/)
 
 ## :pencil2: Ejercicio
@@ -284,4 +284,4 @@ Usando el [archivo CSV](../resources/consumoGasolina2018.csv), que contiene info
    2. Final del programa
    3. Errores
 
-***Nota: Las funciones de manipulación de archivos deber ser asíncronas***
+**_Nota: Las funciones de manipulación de archivos deber ser asíncronas_**

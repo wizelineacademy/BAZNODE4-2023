@@ -4,6 +4,7 @@
 
 - Explicar el concepto de una REST API
 - Crear un cliente http
+- Crear un servidor http
 
 ## :clipboard: Material
 
@@ -54,6 +55,22 @@ getRequest(url);
 
 Axios también posee métodos para ejecutar llamadas POST, PUT y DELETE
 
+## III. Servidor HTTP
+
+Para que nuestro código pueda ser ejecutado mediante una petición http y funcionar como una RESTFul API, es necesario crear un servidor HTTP como se describe a continuación:
+
+```js
+const http = require('http');
+
+const requestListener = (req, res) => {
+  res.writeHead(200);
+  res.end('Hello World!');
+};
+
+const server = http.createServer(requestListener);
+server.listen(8080);
+```
+
 ## :mag: Para saber más
 
 [Que es una REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
@@ -102,6 +119,7 @@ En base al código resultante del modulo 3, añadir las siguientes funcionalidad
 ]
 ```
 
-1. Filtrar el listado de vehículos obtenidos del archivo csv, de modo que solo se mantengan aquellos que aparezcan en la lista de vehículos obtenido en paso 2.
-
-2. Guardar este listado resultante en el archivo `vehicles.json`
+3. Filtrar el listado de vehículos obtenidos del archivo csv, de modo que solo se mantengan aquellos que aparezcan en la lista de vehículos obtenido en paso 3.
+4. Guardar este listado resultante en el archivo `vehicles.json`
+5. Encapsular todo el proyecto para que funcione como un API, creando un servidor HTTP
+6. Regresar como respuesta de la petición, el listado final de vehículos
