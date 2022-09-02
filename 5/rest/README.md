@@ -8,19 +8,19 @@
 
 ## :clipboard: Material
 
-Consultar en la presentación, las diapositivas
+Consultar en la [presentación](https://docs.google.com/presentation/d/1TgLKdAw54CHIy4n3jbXIbLHM--xYYYd9MOC6h0HsJqU/edit?usp=sharing) las diapositivas 40 a la 43
 
 ## :books: Temas
 
 ### I. REST
 
-Una API REST (también conocida como API RESTful) es una interfaz de programación de aplicaciones (API o API web) que se ajusta a las restricciones del estilo arquitectónico REST y permite la interacción con los servicios web RESTful. REST significa transferencia de estado representacional.
+Una REST API (también conocida como RESTful API) es una interfaz de programación de aplicaciones (API o API web) que se ajusta a las restricciones del estilo arquitectónico REST y permite la interacción con los servicios web RESTful. REST significa transferencia de estado representacional.
 
 API: Una API es un conjunto de definiciones y protocolos para construir e integrar software de aplicación.
 
 REST: REST es un conjunto de restricciones arquitectónicas, no un protocolo o un estándar. Cuando se realiza una solicitud de cliente a través de una API RESTful, transfiere una representación del estado del recurso al solicitante o punto final.
 
-## II. Cliente HTTP/HTTPS
+### II. Cliente HTTP/HTTPS
 
 Los clientes HTTP/HTTPS nos permiten consultar recursos externos y poder usarlos dentro de nuestro proyecto.
 
@@ -55,7 +55,7 @@ getRequest(url);
 
 Axios también posee métodos para ejecutar llamadas POST, PUT y DELETE
 
-## III. Servidor HTTP
+### III. Servidor HTTP
 
 Para que nuestro código pueda ser ejecutado mediante una petición http y funcionar como una RESTFul API, es necesario crear un servidor HTTP como se describe a continuación:
 

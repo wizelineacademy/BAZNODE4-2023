@@ -7,7 +7,7 @@
 
 ## :clipboard: Material
 
-Consultar en la presentación, las diapositivas
+Consultar en la [presentación](https://docs.google.com/presentation/d/1TgLKdAw54CHIy4n3jbXIbLHM--xYYYd9MOC6h0HsJqU/edit?usp=sharing) las diapositivas 31 a 33
 
 ## :books: Temas
 

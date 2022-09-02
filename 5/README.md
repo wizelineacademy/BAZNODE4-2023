@@ -1,5 +1,11 @@
 # :computer: Empezando a trabajar con NodeJS
 
+## :clipboard: Material
+
+La presentación del curso está almacenada en la siguiente [liga](https://docs.google.com/presentation/d/1TgLKdAw54CHIy4n3jbXIbLHM--xYYYd9MOC6h0HsJqU/edit?usp=sharing)
+
+El siguiente contenido abarca de las diapositivas 9 a la 22
+
 ## :books: Temas
 
 ### I. Definición

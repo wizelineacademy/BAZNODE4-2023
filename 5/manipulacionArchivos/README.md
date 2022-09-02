@@ -8,13 +8,13 @@
 
 ## :clipboard: Material
 
-Consultar en la presentación, las diapositivas
+Consultar en la [presentación](https://docs.google.com/presentation/d/1TgLKdAw54CHIy4n3jbXIbLHM--xYYYd9MOC6h0HsJqU/edit?usp=sharing) las diapositivas 23 a la 28
 
 ## :books: Temas
 
 ### I. Funciones síncronas
 
-El siguiente es un ejemplo de una función síncrona
+El siguiente es un ejemplo de una ejecución síncrona
 
 ```js
 const myTimer = () => {
@@ -283,5 +283,3 @@ Usando el [archivo CSV](../resources/consumoGasolina2018.csv), que contiene info
    1. Inicio del programa
    2. Final del programa
    3. Errores
-
-**_Nota: Las funciones de manipulación de archivos deber ser asíncronas_**
