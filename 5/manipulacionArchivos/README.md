@@ -113,7 +113,7 @@ firstTask()
   .finally(() => console.log('Terminaron tareas'));
 ```
 
-#### 4 Funciones Async/Await
+#### 4. Funciones Async/Await
 
 Se usan las palabras reservadas `async` y `await` para poder ejecutar una promesa como una función asíncrona
 
