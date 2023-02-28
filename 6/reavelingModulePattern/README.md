@@ -1,7 +1,5 @@
 # :computer: Revealing Module Pattern
 
-## :clipboard: Material
-
 ## :books: Temas
 
 ### I. Module Pattern

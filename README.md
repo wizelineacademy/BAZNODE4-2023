@@ -56,7 +56,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 3.  [Event Emitters & Buffers](5/eventEmitters/README.md)
 4.  [REST (Http Client)](5/rest/README.md)
 
-### Semana 6 - Clean Code Y Proyecto Final
+### Semana 6 - Clean Code
 
 1.  [Reaveling module pattern](6/reavelingModulePattern/README.MD)
 2.  [Factory Method](6/factoryMethod/README.MD)
