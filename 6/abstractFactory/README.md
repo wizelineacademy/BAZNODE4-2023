@@ -61,10 +61,10 @@ function run() {
 run()
 ```
 
-JavaScript no admite la herencia basada en clases, por lo tanto, debemos garantizar esta coherencia nosotros mismos asegurándonos de que cada objeto 'Concreto' tenga la misma definición de interfaz (es decir, propiedades y métodos) que los demás.
+JavaScript no admite la herencia basada en clases, por lo tanto, debemos garantizar esta coherencia nosotros mismos asegurándonos de que cada objeto tenga la misma definición de interfaz (es decir, propiedades y métodos) que los demás.
 
 En el ejemplo tenemos dos `Factory`: `EmployeeFactory` y `VendorFactory`. El primero crea instancias de empleados, el segundo instancias de proveedores. Ambos productos son de tipo persona (con la misma interfaz) lo que permite que el cliente los trate por igual. Se crea una matriz con dos empleados y dos proveedores. Luego se le pide a cada persona que diga qué y quiénes son.
 
 ## :mag: Para saber más
 
-- [The Factory Method](https://www.dofactory.com/javascript/design-patterns/factory-method)
+- [The Abstract Factory](https://www.dofactory.com/javascript/design-patterns/abstract-factory)

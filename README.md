@@ -58,7 +58,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 
 ### Semana 6 - Clean Code
 
-1.  [Reaveling module pattern](6/reavelingModulePattern/README.MD)
+1.  [Revealing module pattern](6/reavelingModulePattern/README.MD)
 2.  [Factory Method](6/factoryMethod/README.MD)
 3.  [Abstract Factory](6/abstractFactory/README.md)
 4.  [Builder](6/builder/README.md)
