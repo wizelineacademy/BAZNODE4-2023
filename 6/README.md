@@ -1,5 +1,9 @@
 # :computer: Clean Code
 
+## :clipboard: Material
+
+La presentación del curso está almacenada en la siguiente [liga](https://docs.google.com/presentation/d/1MxxtFxjJrMYXPgsJbEfjvCMTMjNm0Jk7E5Kr_eTt-EI/edit?usp=sharing)
+
 ## :books: Temas Offline
 
 ### I. TDD vs BDD
